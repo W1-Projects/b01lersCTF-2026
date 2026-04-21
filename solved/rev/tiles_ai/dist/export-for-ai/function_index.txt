@@ -1,0 +1,1079 @@
+# Function Index
+# Total exported functions: 83
+#================================================================================
+
+================================================================================
+Function: .init_proc
+Address: 0x401000
+File: decompile/401000.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x40105b (start) -> decompile/40105B.c
+  - 0x401f3d (sub_401F3D) -> decompile/401F3D.c
+
+Calls: none
+
+================================================================================
+Function: sub_401040
+Address: 0x401040
+File: decompile/401040.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401f6a (sub_401F6A) -> decompile/401F6A.c
+
+Calls (4 callees):
+  - 0x401fd6 (nullsub_1) -> decompile/401FD6.c
+  - 0x401fd7 (sub_401FD7) -> decompile/401FD7.c
+  - 0x406de8 (sub_406DE8) -> decompile/406DE8.c
+  - 0x407f42 (sub_407F42) -> decompile/407F42.c
+
+================================================================================
+Function: start
+Address: 0x40105b
+File: decompile/40105B.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_4010A0
+Address: 0x4010a0
+File: decompile/4010A0.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401110 (sub_401110) -> decompile/401110.c
+
+Calls: none
+
+================================================================================
+Function: sub_401110
+Address: 0x401110
+File: decompile/401110.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4010a0 (sub_4010A0) -> decompile/4010A0.c
+
+================================================================================
+Function: sub_401D60
+Address: 0x401d60
+File: decompile/401D60.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401f6a (sub_401F6A) -> decompile/401F6A.c
+
+Calls (2 callees):
+  - 0x406bb6 (sub_406BB6) -> decompile/406BB6.c
+  - 0x408544 (sub_408544) -> decompile/408544.c
+
+================================================================================
+Function: sub_401F3D
+Address: 0x401f3d
+File: decompile/401F3D.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401f6a (sub_401F6A) -> decompile/401F6A.c
+
+Calls (1 callees):
+  - 0x401000 (.init_proc) -> decompile/401000.c
+
+================================================================================
+Function: sub_401F6A
+Address: 0x401f6a
+File: decompile/401F6A.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401f6a (sub_401F6A) -> decompile/401F6A.c
+
+Calls (3 callees):
+  - 0x401040 (sub_401040) -> decompile/401040.c
+  - 0x401d60 (sub_401D60) -> decompile/401D60.c
+  - 0x401f3d (sub_401F3D) -> decompile/401F3D.c
+
+================================================================================
+Function: nullsub_1
+Address: 0x401fd6
+File: decompile/401FD6.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401040 (sub_401040) -> decompile/401040.c
+
+Calls: none
+
+================================================================================
+Function: sub_401FD7
+Address: 0x401fd7
+File: decompile/401FD7.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401040 (sub_401040) -> decompile/401040.c
+
+Calls: none
+
+================================================================================
+Function: sub_402680
+Address: 0x402680
+File: decompile/402680.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x4029c0 (sub_4029C0) -> decompile/4029C0.c
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+
+Calls (4 callees):
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x403a62 (sub_403A62) -> decompile/403A62.c
+  - 0x406300 (sub_406300) -> decompile/406300.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_4029C0
+Address: 0x4029c0
+File: decompile/4029C0.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x4029c0 (sub_4029C0) -> decompile/4029C0.c
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+
+Calls (3 callees):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+  - 0x4029c0 (sub_4029C0) -> decompile/4029C0.c
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+
+================================================================================
+Function: sub_4033A0
+Address: 0x4033a0
+File: decompile/4033A0.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x407dd7 (sub_407DD7) -> decompile/407DD7.c
+  - 0x407ddc (sub_407DDC) -> decompile/407DDC.c
+  - 0x407fbc (sub_407FBC) -> decompile/407FBC.c
+
+Calls (7 callees):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+  - 0x4029c0 (sub_4029C0) -> decompile/4029C0.c
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x403a9a (sub_403A9A) -> decompile/403A9A.c
+  - 0x4069db (sub_4069DB) -> decompile/4069DB.c
+  - 0x406a8c (sub_406A8C) -> decompile/406A8C.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_403942
+Address: 0x403942
+File: decompile/403942.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: nullsub_2
+Address: 0x4039a7
+File: decompile/4039A7.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x403a9a (sub_403A9A) -> decompile/403A9A.c
+  - 0x408431 (sub_408431) -> decompile/408431.c
+
+Calls: none
+
+================================================================================
+Function: sub_4039A8
+Address: 0x4039a8
+File: decompile/4039A8.c
+Type: decompile
+
+Called by (4 callers):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+  - 0x4029c0 (sub_4029C0) -> decompile/4029C0.c
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+  - 0x407b60 (sub_407B60) -> decompile/407B60.c
+
+Calls (2 callees):
+  - 0x4039a7 (nullsub_2) -> decompile/4039A7.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_403A62
+Address: 0x403a62
+File: decompile/403A62.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+
+Calls (1 callees):
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: nullsub_3
+Address: 0x403a99
+File: decompile/403A99.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_403A9A
+Address: 0x403a9a
+File: decompile/403A9A.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+
+Calls (2 callees):
+  - 0x4039a7 (nullsub_2) -> decompile/4039A7.c
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: sub_403AC9
+Address: 0x403ac9
+File: decompile/403AC9.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+
+Calls (5 callees):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+  - 0x403cdf (sub_403CDF) -> decompile/403CDF.c
+  - 0x403cfb (sub_403CFB) -> decompile/403CFB.c
+  - 0x40714d (sub_40714D) -> decompile/40714D.c
+  - 0x4071e0 (sub_4071E0) -> decompile/4071E0.c
+
+================================================================================
+Function: sub_403C1E
+Address: 0x403c1e
+File: decompile/403C1E.c
+Type: decompile
+
+Called by: none
+
+Calls (5 callees):
+  - 0x40664b (sub_40664B) -> decompile/40664B.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+  - 0x4070c1 (sub_4070C1) -> decompile/4070C1.c
+
+================================================================================
+Function: sub_403CDF
+Address: 0x403cdf
+File: decompile/403CDF.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+  - 0x407a09 (sub_407A09) -> decompile/407A09.c
+  - 0x407f42 (sub_407F42) -> decompile/407F42.c
+
+Calls (1 callees):
+  - 0x4069db (sub_4069DB) -> decompile/4069DB.c
+
+================================================================================
+Function: sub_403CFB
+Address: 0x403cfb
+File: decompile/403CFB.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+  - 0x407a09 (sub_407A09) -> decompile/407A09.c
+
+Calls: none
+
+================================================================================
+Function: sub_403D07
+Address: 0x403d07
+File: decompile/403D07.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x40611d (sub_40611D) -> decompile/40611D.c
+
+================================================================================
+Function: sub_403DA5
+Address: 0x403da5
+File: decompile/403DA5.c
+Type: decompile
+
+Called by: none
+
+Calls (4 callees):
+  - 0x40714d (sub_40714D) -> decompile/40714D.c
+  - 0x4071e0 (sub_4071E0) -> decompile/4071E0.c
+  - 0x40721e (sub_40721E) -> decompile/40721E.c
+  - 0x407539 (sub_407539) -> decompile/407539.c
+
+================================================================================
+Function: sub_403E59
+Address: 0x403e59
+File: decompile/403E59.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls: none
+
+================================================================================
+Function: sub_403FE0
+Address: 0x403fe0
+File: decompile/403FE0.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x404080 (sub_404080) -> decompile/404080.c
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls (2 callees):
+  - 0x406917 (sub_406917) -> decompile/406917.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+
+================================================================================
+Function: sub_404080
+Address: 0x404080
+File: decompile/404080.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls (5 callees):
+  - 0x403fe0 (sub_403FE0) -> decompile/403FE0.c
+  - 0x406e42 (sub_406E42) -> decompile/406E42.c
+  - 0x406e8f (sub_406E8F) -> decompile/406E8F.c
+  - 0x406e9c (sub_406E9C) -> decompile/406E9C.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+
+================================================================================
+Function: sub_405300
+Address: 0x405300
+File: decompile/405300.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x40611d (sub_40611D) -> decompile/40611D.c
+
+Calls (8 callees):
+  - 0x403e59 (sub_403E59) -> decompile/403E59.c
+  - 0x403fe0 (sub_403FE0) -> decompile/403FE0.c
+  - 0x404080 (sub_404080) -> decompile/404080.c
+  - 0x4068ed (sub_4068ED) -> decompile/4068ED.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+  - 0x406dd3 (sub_406DD3) -> decompile/406DD3.c
+  - 0x406f21 (sub_406F21) -> decompile/406F21.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+
+================================================================================
+Function: sub_40611D
+Address: 0x40611d
+File: decompile/40611D.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403d07 (sub_403D07) -> decompile/403D07.c
+
+Calls (4 callees):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+  - 0x40714d (sub_40714D) -> decompile/40714D.c
+  - 0x4071e0 (sub_4071E0) -> decompile/4071E0.c
+  - 0x4074e6 (sub_4074E6) -> decompile/4074E6.c
+
+================================================================================
+Function: sub_406300
+Address: 0x406300
+File: decompile/406300.c
+Type: decompile
+
+Called by (5 callers):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+  - 0x406b37 (sub_406B37) -> decompile/406B37.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+  - 0x407fbc (sub_407FBC) -> decompile/407FBC.c
+  - 0x408544 (sub_408544) -> decompile/408544.c
+
+Calls: none
+
+================================================================================
+Function: sub_40664B
+Address: 0x40664b
+File: decompile/40664B.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x403c1e (sub_403C1E) -> decompile/403C1E.c
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+  - 0x4070c1 (sub_4070C1) -> decompile/4070C1.c
+
+Calls (1 callees):
+  - 0x406680 (sub_406680) -> decompile/406680.c
+
+================================================================================
+Function: sub_406680
+Address: 0x406680
+File: decompile/406680.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x40664b (sub_40664B) -> decompile/40664B.c
+  - 0x406780 (sub_406780) -> decompile/406780.c
+
+Calls (1 callees):
+  - 0x406880 (sub_406880) -> decompile/406880.c
+
+================================================================================
+Function: sub_406780
+Address: 0x406780
+File: decompile/406780.c
+Type: decompile
+
+Called by: none
+
+Calls (2 callees):
+  - 0x406680 (sub_406680) -> decompile/406680.c
+  - 0x406917 (sub_406917) -> decompile/406917.c
+
+================================================================================
+Function: sub_406880
+Address: 0x406880
+File: decompile/406880.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x406680 (sub_406680) -> decompile/406680.c
+  - 0x407539 (sub_407539) -> decompile/407539.c
+
+Calls: none
+
+================================================================================
+Function: sub_4068ED
+Address: 0x4068ed
+File: decompile/4068ED.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls (1 callees):
+  - 0x407a40 (sub_407A40) -> decompile/407A40.c
+
+================================================================================
+Function: sub_406917
+Address: 0x406917
+File: decompile/406917.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x403fe0 (sub_403FE0) -> decompile/403FE0.c
+  - 0x406780 (sub_406780) -> decompile/406780.c
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+
+Calls: none
+
+================================================================================
+Function: sub_4069DB
+Address: 0x4069db
+File: decompile/4069DB.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+  - 0x403cdf (sub_403CDF) -> decompile/403CDF.c
+  - 0x407b60 (sub_407B60) -> decompile/407B60.c
+
+Calls: none
+
+================================================================================
+Function: sub_406A8C
+Address: 0x406a8c
+File: decompile/406A8C.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+  - 0x403cfb (sub_403CFB) -> decompile/403CFB.c
+  - 0x407b60 (sub_407B60) -> decompile/407B60.c
+
+Calls: none
+
+================================================================================
+Function: sub_406AC7
+Address: 0x406ac7
+File: decompile/406AC7.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x407b38 (sub_407B38) -> decompile/407B38.c
+
+================================================================================
+Function: sub_406B37
+Address: 0x406b37
+File: decompile/406B37.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x406bb6 (sub_406BB6) -> decompile/406BB6.c
+
+Calls (1 callees):
+  - 0x406300 (sub_406300) -> decompile/406300.c
+
+================================================================================
+Function: sub_406BB6
+Address: 0x406bb6
+File: decompile/406BB6.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401d60 (sub_401D60) -> decompile/401D60.c
+
+Calls (2 callees):
+  - 0x406b37 (sub_406B37) -> decompile/406B37.c
+  - 0x407b38 (sub_407B38) -> decompile/407B38.c
+
+================================================================================
+Function: sub_406D99
+Address: 0x406d99
+File: decompile/406D99.c
+Type: decompile
+
+Called by (11 callers):
+  - 0x402680 (sub_402680) -> decompile/402680.c
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x403c1e (sub_403C1E) -> decompile/403C1E.c
+  - 0x405300 (sub_405300) -> decompile/405300.c
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+  - 0x407b60 (sub_407B60) -> decompile/407B60.c
+  - 0x407de6 (sub_407DE6) -> decompile/407DE6.c
+  - 0x407fbc (sub_407FBC) -> decompile/407FBC.c
+  - 0x408431 (sub_408431) -> decompile/408431.c
+
+Calls: none
+
+================================================================================
+Function: sub_406DD3
+Address: 0x406dd3
+File: decompile/406DD3.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls: none
+
+================================================================================
+Function: sub_406DE8
+Address: 0x406de8
+File: decompile/406DE8.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401040 (sub_401040) -> decompile/401040.c
+
+Calls: none
+
+================================================================================
+Function: sub_406DFB
+Address: 0x406dfb
+File: decompile/406DFB.c
+Type: decompile
+
+Called by (9 callers):
+  - 0x403942 (sub_403942) -> decompile/403942.c
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x403a62 (sub_403A62) -> decompile/403A62.c
+  - 0x403a9a (sub_403A9A) -> decompile/403A9A.c
+  - 0x403c1e (sub_403C1E) -> decompile/403C1E.c
+  - 0x407292 (sub_407292) -> decompile/407292.c
+  - 0x4072b5 (sub_4072B5) -> decompile/4072B5.c
+  - 0x40738e (sub_40738E) -> decompile/40738E.c
+  - 0x408431 (sub_408431) -> decompile/408431.c
+
+Calls (1 callees):
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_406E42
+Address: 0x406e42
+File: decompile/406E42.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x404080 (sub_404080) -> decompile/404080.c
+
+Calls: none
+
+================================================================================
+Function: sub_406E8F
+Address: 0x406e8f
+File: decompile/406E8F.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x404080 (sub_404080) -> decompile/404080.c
+
+Calls: none
+
+================================================================================
+Function: sub_406E9C
+Address: 0x406e9c
+File: decompile/406E9C.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x404080 (sub_404080) -> decompile/404080.c
+  - 0x406e9c (sub_406E9C) -> decompile/406E9C.c
+
+Calls (1 callees):
+  - 0x406e9c (sub_406E9C) -> decompile/406E9C.c
+
+================================================================================
+Function: sub_406F21
+Address: 0x406f21
+File: decompile/406F21.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x405300 (sub_405300) -> decompile/405300.c
+
+Calls (1 callees):
+  - 0x407de6 (sub_407DE6) -> decompile/407DE6.c
+
+================================================================================
+Function: sub_406F39
+Address: 0x406f39
+File: decompile/406F39.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403c1e (sub_403C1E) -> decompile/403C1E.c
+
+Calls (5 callees):
+  - 0x40664b (sub_40664B) -> decompile/40664B.c
+  - 0x406917 (sub_406917) -> decompile/406917.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+  - 0x407a09 (sub_407A09) -> decompile/407A09.c
+  - 0x407ddc (sub_407DDC) -> decompile/407DDC.c
+
+================================================================================
+Function: sub_4070C1
+Address: 0x4070c1
+File: decompile/4070C1.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403c1e (sub_403C1E) -> decompile/403C1E.c
+
+Calls (1 callees):
+  - 0x40664b (sub_40664B) -> decompile/40664B.c
+
+================================================================================
+Function: sub_40714D
+Address: 0x40714d
+File: decompile/40714D.c
+Type: decompile
+
+Called by (5 callers):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+  - 0x403da5 (sub_403DA5) -> decompile/403DA5.c
+  - 0x40611d (sub_40611D) -> decompile/40611D.c
+  - 0x407659 (sub_407659) -> decompile/407659.c
+  - 0x407ef2 (sub_407EF2) -> decompile/407EF2.c
+
+Calls: none
+
+================================================================================
+Function: sub_4071E0
+Address: 0x4071e0
+File: decompile/4071E0.c
+Type: decompile
+
+Called by (4 callers):
+  - 0x403ac9 (sub_403AC9) -> decompile/403AC9.c
+  - 0x403da5 (sub_403DA5) -> decompile/403DA5.c
+  - 0x40611d (sub_40611D) -> decompile/40611D.c
+  - 0x407659 (sub_407659) -> decompile/407659.c
+
+Calls: none
+
+================================================================================
+Function: sub_40721E
+Address: 0x40721e
+File: decompile/40721E.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403da5 (sub_403DA5) -> decompile/403DA5.c
+
+Calls (1 callees):
+  - 0x4074e6 (sub_4074E6) -> decompile/4074E6.c
+
+================================================================================
+Function: sub_40728F
+Address: 0x40728f
+File: decompile/40728F.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407292 (sub_407292) -> decompile/407292.c
+
+Calls: none
+
+================================================================================
+Function: sub_407292
+Address: 0x407292
+File: decompile/407292.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+
+Calls (2 callees):
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+  - 0x40728f (sub_40728F) -> decompile/40728F.c
+
+================================================================================
+Function: sub_4072B5
+Address: 0x4072b5
+File: decompile/4072B5.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: sub_40738E
+Address: 0x40738e
+File: decompile/40738E.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+  - 0x407491 (sub_407491) -> decompile/407491.c
+
+Calls (1 callees):
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: sub_407491
+Address: 0x407491
+File: decompile/407491.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x40738e (sub_40738E) -> decompile/40738E.c
+
+================================================================================
+Function: sub_4074E6
+Address: 0x4074e6
+File: decompile/4074E6.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x40611d (sub_40611D) -> decompile/40611D.c
+  - 0x40721e (sub_40721E) -> decompile/40721E.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+
+Calls: none
+
+================================================================================
+Function: sub_407534
+Address: 0x407534
+File: decompile/407534.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_407539
+Address: 0x407539
+File: decompile/407539.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x403da5 (sub_403DA5) -> decompile/403DA5.c
+
+Calls (2 callees):
+  - 0x406880 (sub_406880) -> decompile/406880.c
+  - 0x407659 (sub_407659) -> decompile/407659.c
+
+================================================================================
+Function: sub_407580
+Address: 0x407580
+File: decompile/407580.c
+Type: decompile
+
+Called by (4 callers):
+  - 0x403fe0 (sub_403FE0) -> decompile/403FE0.c
+  - 0x404080 (sub_404080) -> decompile/404080.c
+  - 0x405300 (sub_405300) -> decompile/405300.c
+  - 0x407659 (sub_407659) -> decompile/407659.c
+
+Calls (2 callees):
+  - 0x406300 (sub_406300) -> decompile/406300.c
+  - 0x4074e6 (sub_4074E6) -> decompile/4074E6.c
+
+================================================================================
+Function: sub_407659
+Address: 0x407659
+File: decompile/407659.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407539 (sub_407539) -> decompile/407539.c
+
+Calls (3 callees):
+  - 0x40714d (sub_40714D) -> decompile/40714D.c
+  - 0x4071e0 (sub_4071E0) -> decompile/4071E0.c
+  - 0x407580 (sub_407580) -> decompile/407580.c
+
+================================================================================
+Function: sub_407A09
+Address: 0x407a09
+File: decompile/407A09.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+
+Calls (2 callees):
+  - 0x403cdf (sub_403CDF) -> decompile/403CDF.c
+  - 0x403cfb (sub_403CFB) -> decompile/403CFB.c
+
+================================================================================
+Function: sub_407A40
+Address: 0x407a40
+File: decompile/407A40.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x4068ed (sub_4068ED) -> decompile/4068ED.c
+
+Calls: none
+
+================================================================================
+Function: sub_407B38
+Address: 0x407b38
+File: decompile/407B38.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x406ac7 (sub_406AC7) -> decompile/406AC7.c
+  - 0x406bb6 (sub_406BB6) -> decompile/406BB6.c
+
+Calls: none
+
+================================================================================
+Function: sub_407B60
+Address: 0x407b60
+File: decompile/407B60.c
+Type: decompile
+
+Called by: none
+
+Calls (4 callees):
+  - 0x4039a8 (sub_4039A8) -> decompile/4039A8.c
+  - 0x4069db (sub_4069DB) -> decompile/4069DB.c
+  - 0x406a8c (sub_406A8C) -> decompile/406A8C.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_407DD7
+Address: 0x407dd7
+File: decompile/407DD7.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_407DDC
+Address: 0x407ddc
+File: decompile/407DDC.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x406f39 (sub_406F39) -> decompile/406F39.c
+
+Calls: none
+
+================================================================================
+Function: sub_407DE1
+Address: 0x407de1
+File: decompile/407DE1.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_407DE6
+Address: 0x407de6
+File: decompile/407DE6.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x406f21 (sub_406F21) -> decompile/406F21.c
+
+Calls (1 callees):
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+
+================================================================================
+Function: sub_407EF2
+Address: 0x407ef2
+File: decompile/407EF2.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407f42 (sub_407F42) -> decompile/407F42.c
+
+Calls (1 callees):
+  - 0x40714d (sub_40714D) -> decompile/40714D.c
+
+================================================================================
+Function: sub_407F42
+Address: 0x407f42
+File: decompile/407F42.c
+Type: decompile
+
+Called by (3 callers):
+  - 0x401040 (sub_401040) -> decompile/401040.c
+  - 0x407534 (sub_407534) -> decompile/407534.c
+  - 0x40853f (sub_40853F) -> decompile/40853F.c
+
+Calls (2 callees):
+  - 0x403cdf (sub_403CDF) -> decompile/403CDF.c
+  - 0x407ef2 (sub_407EF2) -> decompile/407EF2.c
+
+================================================================================
+Function: sub_407F83
+Address: 0x407f83
+File: decompile/407F83.c
+Type: decompile
+
+Called by: none
+
+Calls (1 callees):
+  - 0x4084cb (sub_4084CB) -> decompile/4084CB.c
+
+================================================================================
+Function: sub_407FBC
+Address: 0x407fbc
+File: decompile/407FBC.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407de1 (sub_407DE1) -> decompile/407DE1.c
+
+Calls (4 callees):
+  - 0x4033a0 (sub_4033A0) -> decompile/4033A0.c
+  - 0x406300 (sub_406300) -> decompile/406300.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+  - 0x408431 (sub_408431) -> decompile/408431.c
+
+================================================================================
+Function: nullsub_4
+Address: 0x408430
+File: decompile/408430.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_408431
+Address: 0x408431
+File: decompile/408431.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407fbc (sub_407FBC) -> decompile/407FBC.c
+
+Calls (3 callees):
+  - 0x4039a7 (nullsub_2) -> decompile/4039A7.c
+  - 0x406d99 (sub_406D99) -> decompile/406D99.c
+  - 0x406dfb (sub_406DFB) -> decompile/406DFB.c
+
+================================================================================
+Function: sub_4084CB
+Address: 0x4084cb
+File: decompile/4084CB.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x407f83 (sub_407F83) -> decompile/407F83.c
+
+Calls: none
+
+================================================================================
+Function: sub_40853F
+Address: 0x40853f
+File: decompile/40853F.c
+Type: decompile
+
+Called by: none
+
+Calls: none
+
+================================================================================
+Function: sub_408544
+Address: 0x408544
+File: decompile/408544.c
+Type: decompile
+
+Called by (1 callers):
+  - 0x401d60 (sub_401D60) -> decompile/401D60.c
+
+Calls (1 callees):
+  - 0x406300 (sub_406300) -> decompile/406300.c
+
+================================================================================
+Function: .term_proc
+Address: 0x40859c
+File: decompile/40859C.c
+Type: decompile
+
+Called by (2 callers):
+  - 0x40105b (start) -> decompile/40105B.c
+  - 0x401fd7 (sub_401FD7) -> decompile/401FD7.c
+
+Calls: none
+

@@ -1,0 +1,7 @@
+# Exports
+# Format: func-addr:func-name
+#============================================================
+
+0x401000:.init_proc
+0x40859c:.term_proc
+0x40105b:start

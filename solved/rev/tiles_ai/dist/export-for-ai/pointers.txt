@@ -1,0 +1,280 @@
+# Total Pointers Found: 274
+# Format: Source_Address | Segment | Points_To_Address | Target_Name | Target_Type | Target_Detail
+# Pointer size: 8
+# Data xref hits: 274
+# Raw pointer hits: 7
+------------------------------------------------------------------------------------------------------------------------
+400018 | LOAD | 40105B | start | function_pointer | function_start
+400050 | LOAD | 400000 | dword_400000 | data_pointer | data_item_size=4
+400088 | LOAD | 401000 | _init_proc | function_pointer | function_start
+4000C0 | LOAD | 409000 | unk_409000 | unknown_pointer | 
+4000F8 | LOAD | 411FA0 | off_411FA0 | data_pointer | data_item_size=8
+400130 | LOAD | 4001C8 | dword_4001C8 | data_pointer | data_item_size=4
+4001A0 | LOAD | 411FA0 | off_411FA0 | data_pointer | data_item_size=8
+401077 | .text | 40859C | _term_proc | function_pointer | function_start
+401081 | .text | 401000 | _init_proc | function_pointer | function_start
+401088 | .text | 401180 | qword_401180 | data_pointer | data_item_size=3040
+4010A0 | .text | 412210 | unk_412210 | unknown_pointer | 
+4010A5 | .text | 412210 | unk_412210 | unknown_pointer | 
+4010B9 | .text | 412210 | unk_412210 | unknown_pointer | 
+4010D0 | .text | 412210 | unk_412210 | unknown_pointer | 
+4010D5 | .text | 412210 | unk_412210 | unknown_pointer | 
+4010FB | .text | 412210 | unk_412210 | unknown_pointer | 
+401110 | .text | 412220 | byte_412220 | data_pointer | data_item_size=1
+401122 | .text | 411FF0 | qword_411FF0 | import_pointer | import_entry
+40112C | .text | 410EE0 | unk_410EE0 | unknown_pointer | 
+401137 | .text | 412220 | byte_412220 | data_pointer | data_item_size=1
+401D7C | .text | 413508 | unk_413508 | unknown_pointer | 
+401DA1 | .text | 4128A8 | qword_4128A8 | data_pointer | data_item_size=8
+401DE5 | .text | 412888 | qword_412888 | data_pointer | data_item_size=8
+401DF9 | .text | 412870 | qword_412870 | data_pointer | data_item_size=8
+401E05 | .text | 4128D0 | qword_4128D0 | data_pointer | data_item_size=8
+401E11 | .text | 412878 | unk_412878 | unknown_pointer | 
+401E18 | .text | 412880 | unk_412880 | unknown_pointer | 
+401E33 | .text | 41019A | unknown | unknown_pointer | 
+401EDF | .text | 410140 | aDevNull | string_pointer | "/dev/null"
+401F2E | .text | 4128A2 | byte_4128A2 | data_pointer | data_item_size=1
+401F48 | .text | 411FA0 | off_411FA0 | data_pointer | data_item_size=8
+401F4F | .text | 411FA8 | off_411FA8 | data_pointer | data_item_size=8
+401FBD | .text | 401F6A | sub_401F6A | function_pointer | function_start
+401FDD | .text | 411FB0 | off_411FB0 | data_pointer | data_item_size=8
+401FE4 | .text | 411FA8 | off_411FA8 | data_pointer | data_item_size=8
+402687 | .text | 412928 | dword_412928 | data_pointer | data_item_size=4
+402691 | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+4026BB | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+4026E2 | .text | 4128A0 | byte_4128A0 | data_pointer | data_item_size=1
+402735 | .text | 4128A0 | byte_4128A0 | data_pointer | data_item_size=1
+40273E | .text | 412928 | dword_412928 | data_pointer | data_item_size=4
+40274D | .text | 412920 | qword_412920 | data_pointer | data_item_size=8
+402759 | .text | 412940 | qword_412940 | data_pointer | data_item_size=8
+402765 | .text | 412938 | qword_412938 | data_pointer | data_item_size=8
+402770 | .text | 412940 | qword_412940 | data_pointer | data_item_size=8
+40277F | .text | 412938 | qword_412938 | data_pointer | data_item_size=8
+40278F | .text | 412948 | brk | data_pointer | data_item_size=8
+40279E | .text | 412968 | qword_412968 | data_pointer | data_item_size=8
+4027BC | .text | 412948 | brk | data_pointer | data_item_size=8
+4027C3 | .text | 412968 | qword_412968 | data_pointer | data_item_size=8
+4027CA | .text | 412960 | qword_412960 | data_pointer | data_item_size=8
+4027DE | .text | 412920 | qword_412920 | data_pointer | data_item_size=8
+4027E5 | .text | 412960 | qword_412960 | data_pointer | data_item_size=8
+4027EF | .text | 412960 | qword_412960 | data_pointer | data_item_size=8
+4027FD | .text | 412960 | qword_412960 | data_pointer | data_item_size=8
+402812 | .text | 412CB8 | qword_412CB8 | data_pointer | data_item_size=8
+402842 | .text | 412948 | brk | data_pointer | data_item_size=8
+402849 | .text | 412CB8 | qword_412CB8 | data_pointer | data_item_size=8
+40285D | .text | 412950 | qword_412950 | data_pointer | data_item_size=8
+4028AE | .text | 412950 | qword_412950 | data_pointer | data_item_size=8
+4028B6 | .text | 412968 | qword_412968 | data_pointer | data_item_size=8
+4028C1 | .text | 412948 | brk | data_pointer | data_item_size=8
+4028FE | .text | 412CB8 | qword_412CB8 | data_pointer | data_item_size=8
+402923 | .text | 412CB8 | qword_412CB8 | data_pointer | data_item_size=8
+402934 | .text | 412CB8 | qword_412CB8 | data_pointer | data_item_size=8
+402981 | .text | 412948 | brk | data_pointer | data_item_size=8
+40298D | .text | 412958 | qword_412958 | data_pointer | data_item_size=8
+40299D | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+4029A9 | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+4029C9 | .text | 412920 | qword_412920 | data_pointer | data_item_size=8
+402B43 | .text | 410240 | unk_410240 | unknown_pointer | 
+402BEA | .text | 4101E0 | unk_4101E0 | unknown_pointer | 
+402C13 | .text | 410200 | unk_410200 | unknown_pointer | 
+402CA6 | .text | 412CB0 | byte_412CB0 | data_pointer | data_item_size=1
+402D53 | .text | 412CB0 | byte_412CB0 | data_pointer | data_item_size=1
+402E0E | .text | 412C70 | unk_412C70 | unknown_pointer | 
+402F5D | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+403045 | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+40305E | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+4030A6 | .text | 4101E0 | unk_4101E0 | unknown_pointer | 
+403166 | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+40319A | .text | 412930 | qword_412930 | data_pointer | data_item_size=8
+403234 | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+403304 | .text | 410240 | unk_410240 | unknown_pointer | 
+403352 | .text | 410210 | unk_410210 | unknown_pointer | 
+403416 | .text | 4101E0 | unk_4101E0 | unknown_pointer | 
+40342A | .text | 410240 | unk_410240 | unknown_pointer | 
+40346A | .text | 4128A3 | byte_4128A3 | data_pointer | data_item_size=1
+403471 | .text | 412CC0 | unk_412CC0 | unknown_pointer | 
+403480 | .text | 412920 | qword_412920 | data_pointer | data_item_size=8
+403508 | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+403557 | .text | 4128A3 | byte_4128A3 | data_pointer | data_item_size=1
+40355E | .text | 412CC0 | unk_412CC0 | unknown_pointer | 
+403569 | .text | 412CB0 | byte_412CB0 | data_pointer | data_item_size=1
+403577 | .text | 412CB0 | byte_412CB0 | data_pointer | data_item_size=1
+4035C1 | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+4035CA | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+4035DF | .text | 412C70 | unk_412C70 | unknown_pointer | 
+403671 | .text | 41292C | dword_41292C | data_pointer | data_item_size=4
+40367E | .text | 4101E0 | unk_4101E0 | unknown_pointer | 
+4036D5 | .text | 410240 | unk_410240 | unknown_pointer | 
+403B48 | .text | 412108 | off_412108 | data_pointer | data_item_size=8
+403B56 | .text | 412108 | off_412108 | data_pointer | data_item_size=8
+403B64 | .text | 412CC8 | qword_412CC8 | data_pointer | data_item_size=8
+403B70 | .text | 412CC8 | qword_412CC8 | data_pointer | data_item_size=8
+403C26 | .text | 41014A | aRwa | string_pointer | "rwa"
+403CE3 | .text | 412CD0 | uaddr | data_pointer | data_item_size=4
+403CEF | .text | 412CD8 | unk_412CD8 | unknown_pointer | 
+403CFB | .text | 412CD0 | uaddr | data_pointer | data_item_size=4
+403D7F | .text | 412120 | unk_412120 | unknown_pointer | 
+403DAA | .text | 4121AC | dword_4121AC | data_pointer | data_item_size=4
+403DB4 | .text | 412120 | unk_412120 | unknown_pointer | 
+403DCB | .text | 4121B0 | dword_4121B0 | data_pointer | data_item_size=4
+403DD4 | .text | 412148 | qword_412148 | data_pointer | data_item_size=8
+403DDB | .text | 412140 | qword_412140 | data_pointer | data_item_size=8
+403DE8 | .text | 412148 | qword_412148 | data_pointer | data_item_size=8
+403E03 | .text | 412120 | unk_412120 | unknown_pointer | 
+403E14 | .text | 412120 | unk_412120 | unknown_pointer | 
+403E32 | .text | 412120 | unk_412120 | unknown_pointer | 
+403E43 | .text | 412120 | unk_412120 | unknown_pointer | 
+403E65 | .text | 4102A0 | jpt_403E73 | data_pointer | data_item_size=72
+403E6C | .text | 4102A0 | jpt_403E73 | data_pointer | data_item_size=72
+4040D1 | .text | 41014E | a0x0x0x0x0x0x | string_pointer | "-0X+0X 0X-0x+0x 0x"
+404196 | .text | 41014F | unknown | unknown_pointer | 
+4041B6 | .text | 410151 | unknown | unknown_pointer | 
+4041DD | .text | 410165 | aNan | string_pointer | "nan"
+4041E4 | .text | 41016D | aInf_0 | string_pointer | "inf"
+40424F | .text | 410169 | aNan_0 | string_pointer | "NAN"
+404256 | .text | 410161 | aInf | string_pointer | "INF"
+4042E0 | .text | 4105E4 | flt_4105E4 | data_pointer | data_item_size=4
+4042F7 | .text | 4105E8 | flt_4105E8 | data_pointer | data_item_size=4
+4043B9 | .text | 4105E0 | flt_4105E0 | data_pointer | data_item_size=4
+4043E2 | .text | 4105D0 | flt_4105D0 | data_pointer | data_item_size=4
+4043E8 | .text | 4105E0 | flt_4105E0 | data_pointer | data_item_size=4
+4044A4 | .text | 4103F0 | unk_4103F0 | unknown_pointer | 
+40496D | .text | 4105D4 | flt_4105D4 | data_pointer | data_item_size=4
+404973 | .text | 4105D8 | flt_4105D8 | data_pointer | data_item_size=4
+404992 | .text | 4105D4 | flt_4105D4 | data_pointer | data_item_size=4
+40499A | .text | 410600 | tbyte_410600 | data_pointer | data_item_size=10
+4049AE | .text | 4105DC | flt_4105DC | data_pointer | data_item_size=4
+4049F5 | .text | 410600 | tbyte_410600 | data_pointer | data_item_size=10
+4049FB | .text | 4105D8 | flt_4105D8 | data_pointer | data_item_size=4
+404FC4 | .text | 410171 | asc_410171 | string_pointer | "."
+4051FE | .text | 410171 | asc_410171 | string_pointer | "."
+40530D | .text | 410400 | unk_410400 | unknown_pointer | 
+405825 | .text | 4102E8 | jpt_405833 | data_pointer | data_item_size=224
+40582C | .text | 4102E8 | jpt_405833 | data_pointer | data_item_size=224
+4058A2 | .text | 4103F0 | unk_4103F0 | unknown_pointer | 
+40593B | .text | 4103C8 | jpt_405949 | data_pointer | data_item_size=32
+405942 | .text | 4103C8 | jpt_405949 | data_pointer | data_item_size=32
+4059F3 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405A80 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405AA9 | .text | 410175 | unknown | unknown_pointer | 
+405AC0 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405AF6 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405B0C | .text | 410174 | unknown | unknown_pointer | 
+405B20 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405B6B | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405CB8 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405CD6 | .text | 41017D | aNull | string_pointer | "(null)"
+405D22 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405ED3 | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+405F2B | .text | 410173 | a0x0x | string_pointer | "-+   0X0x"
+4069DB | .text | 4128A3 | byte_4128A3 | data_pointer | data_item_size=1
+406A01 | .text | 4128A3 | byte_4128A3 | data_pointer | data_item_size=1
+406AE2 | .text | 4128A0 | byte_4128A0 | data_pointer | data_item_size=1
+406AF5 | .text | 4136B0 | tidptr | data_pointer | data_item_size=4
+406B01 | .text | 4128D8 | unk_4128D8 | unknown_pointer | 
+406B1D | .text | 412870 | qword_412870 | data_pointer | data_item_size=8
+406B48 | .text | 4128B8 | qword_4128B8 | data_pointer | data_item_size=8
+406B4F | .text | 4128C0 | qword_4128C0 | data_pointer | data_item_size=8
+406B56 | .text | 4128B0 | qword_4128B0 | data_pointer | data_item_size=8
+406B98 | .text | 4128C8 | qword_4128C8 | data_pointer | data_item_size=8
+406C20 | .text | 41220C | dword_41220C | data_pointer | data_item_size=4
+406C39 | .text | 41220C | dword_41220C | data_pointer | data_item_size=4
+406C52 | .text | 413520 | unk_413520 | unknown_pointer | 
+406C5D | .text | 413528 | qword_413528 | data_pointer | data_item_size=8
+406C64 | .text | 413530 | qword_413530 | data_pointer | data_item_size=8
+406C6F | .text | 4128C8 | qword_4128C8 | data_pointer | data_item_size=8
+406C7A | .text | 413540 | qword_413540 | data_pointer | data_item_size=8
+406C81 | .text | 4128B0 | qword_4128B0 | data_pointer | data_item_size=8
+406C9F | .text | 413538 | qword_413538 | data_pointer | data_item_size=8
+406CA6 | .text | 413548 | qword_413548 | data_pointer | data_item_size=8
+406CB3 | .text | 413540 | qword_413540 | data_pointer | data_item_size=8
+406CCB | .text | 4128C0 | qword_4128C0 | data_pointer | data_item_size=8
+406CD2 | .text | 413560 | unk_413560 | unknown_pointer | 
+406CDD | .text | 4128B8 | qword_4128B8 | data_pointer | data_item_size=8
+406D30 | .text | 4128A0 | byte_4128A0 | data_pointer | data_item_size=1
+406D43 | .text | 4136B0 | tidptr | data_pointer | data_item_size=4
+406D4F | .text | 4128D8 | unk_4128D8 | unknown_pointer | 
+406D6B | .text | 412870 | qword_412870 | data_pointer | data_item_size=8
+406D7C | .text | 413538 | qword_413538 | data_pointer | data_item_size=8
+406D83 | .text | 413528 | qword_413528 | data_pointer | data_item_size=8
+406D8A | .text | 413540 | qword_413540 | data_pointer | data_item_size=8
+406DA7 | .text | 410740 | aNoErrorInforma | string_pointer | "No error information"
+406DB9 | .text | 410620 | unk_410620 | unknown_pointer | 
+406EFE | .text | 4105EC | flt_4105EC | data_pointer | data_item_size=4
+406F3E | .text | 41014A | aRwa | string_pointer | "rwa"
+407014 | .text | 40738E | sub_40738E | function_pointer | function_start
+40701B | .text | 4128A1 | byte_4128A1 | data_pointer | data_item_size=1
+407022 | .text | 411FC8 | off_411FC8 | data_pointer | data_item_size=8
+40702F | .text | 407386 | loc_407386 | code_pointer | instruction
+40703E | .text | 407292 | sub_407292 | function_pointer | function_start
+407491 | .text | 40738E | sub_40738E | function_pointer | function_start
+407B9E | .text | 4136D0 | unk_4136D0 | unknown_pointer | 
+407BAE | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407BB5 | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407BCE | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407BFD | .text | 4136B8 | qword_4136B8 | data_pointer | data_item_size=8
+407C04 | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407C0B | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407C36 | .text | 4128A8 | qword_4128A8 | data_pointer | data_item_size=8
+407C89 | .text | 4136B8 | qword_4136B8 | data_pointer | data_item_size=8
+407C98 | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407C9F | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407CA6 | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407CAD | .text | 4136B8 | qword_4136B8 | data_pointer | data_item_size=8
+407CBC | .text | 4136B8 | qword_4136B8 | data_pointer | data_item_size=8
+407CF0 | .text | 4136B4 | dword_4136B4 | data_pointer | data_item_size=4
+407CFB | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407D02 | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407D60 | .text | 4136C0 | qword_4136C0 | data_pointer | data_item_size=8
+407D6A | .text | 4136D0 | unk_4136D0 | unknown_pointer | 
+407D71 | .text | 4136C8 | qword_4136C8 | data_pointer | data_item_size=8
+407D8A | .text | 4136B4 | dword_4136B4 | data_pointer | data_item_size=4
+407D92 | .text | 4136D0 | unk_4136D0 | unknown_pointer | 
+407DBD | .text | 4136D0 | unk_4136D0 | unknown_pointer | 
+407ED3 | .text | 4105F0 | dword_4105F0 | data_pointer | data_item_size=4
+407F5E | .text | 412008 | off_412008 | data_pointer | data_item_size=8
+407F6A | .text | 412108 | off_412108 | data_pointer | data_item_size=8
+407F76 | .text | 412CC8 | qword_412CC8 | data_pointer | data_item_size=8
+40805A | .text | 412920 | qword_412920 | data_pointer | data_item_size=8
+408082 | .text | 410240 | unk_410240 | unknown_pointer | 
+408174 | .text | 410240 | unk_410240 | unknown_pointer | 
+4081A4 | .text | 410EC0 | unk_410EC0 | unknown_pointer | 
+4082E4 | .text | 410240 | unk_410240 | unknown_pointer | 
+40854D | .text | 4136E0 | unk_4136E0 | unknown_pointer | 
+408587 | .text | 4136E0 | unk_4136E0 | unknown_pointer | 
+4102A0 | .rodata | 403E75 | loc_403E75 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403E9C | loc_403E9C | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403EC2 | loc_403EC2 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403EEA | loc_403EEA | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403F11 | loc_403F11 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403F39 | loc_403F39 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403F60 | loc_403F60 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403F87 | loc_403F87 | code_pointer | inside_sub_403E59
+4102A0 | .rodata | 403FB0 | loc_403FB0 | code_pointer | inside_sub_403E59
+4102E8 | .rodata | 405886 | loc_405886 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405890 | loc_405890 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 4058B9 | loc_4058B9 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405932 | loc_405932 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405983 | loc_405983 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405A12 | loc_405A12 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405A91 | loc_405A91 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405AF6 | loc_405AF6 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405C50 | loc_405C50 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405CD1 | loc_405CD1 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405D11 | loc_405D11 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405E83 | loc_405E83 | code_pointer | inside_sub_405300
+4102E8 | .rodata | 405EE4 | def_405833 | code_pointer | inside_sub_405300
+4103C8 | .rodata | 40584F | def_405949 | code_pointer | inside_sub_405300
+4103C8 | .rodata | 40594B | loc_40594B | code_pointer | inside_sub_405300
+4103C8 | .rodata | 405958 | loc_405958 | code_pointer | inside_sub_405300
+4103C8 | .rodata | 405966 | loc_405966 | code_pointer | inside_sub_405300
+4103C8 | .rodata | 405973 | loc_405973 | code_pointer | inside_sub_405300
+411FA0 | .init_array | 401150 | qword_401150 | data_pointer | data_item_size=48
+411FA8 | .fini_array | 401110 | sub_401110 | function_pointer | function_start
+411FB0 | .data.rel.ro | 412CD0 | uaddr | data_pointer | data_item_size=4
+411FB8 | .data.rel.ro | 412020 | unk_412020 | unknown_pointer | 
+411FC0 | .data.rel.ro | 412120 | unk_412120 | unknown_pointer | 
+411FC8 | .data.rel.ro | 4072B5 | sub_4072B5 | function_pointer | function_start
+411FD0 | .data.rel.ro | 4136D0 | unk_4136D0 | unknown_pointer | 
+412008 | .data | 412020 | unk_412020 | unknown_pointer | 
+412108 | .data | 412120 | unk_412120 | unknown_pointer | 
