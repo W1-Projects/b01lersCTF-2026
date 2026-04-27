@@ -1,0 +1,7 @@
+name: full-chain
+services:
+  challenge:
+    build: .
+    ports:
+      - "1337:5000"
+    privileged: true
